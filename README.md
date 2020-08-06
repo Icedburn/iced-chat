@@ -1,5 +1,8 @@
 # iced-chat
-##Description
-Sample Go Aplication
-##Created and Managed by:
+Creation Date: Aug 2020
+
+## Created and Managed by:
 Icedburn
+
+## Description
+Sample Go Aplication
