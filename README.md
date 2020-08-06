@@ -1,3 +1,3 @@
 # iced-chat
-Sample Go Aplication
+Sample Go Aplication\n
 Managed by: Icedburn
