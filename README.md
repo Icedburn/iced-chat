@@ -1,3 +1,5 @@
 # iced-chat
-Sample Go Aplication\n
-Managed by: Icedburn
+##Description
+Sample Go Aplication
+##Created and Managed by:
+Icedburn
