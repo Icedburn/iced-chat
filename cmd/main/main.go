@@ -1,6 +1,7 @@
 package main
 
 import (
+	"IcedChat/pkg/parallel_reading"
 	"fmt"
 	"net/http"
 )
@@ -11,5 +12,7 @@ func main() {
 }
 
 func HelloServer(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hello, %s!", r.URL.Path[1:])
+	var url string = r.URL.Path[1:]
+	var result string = parallel_reading.Read(url)
+	fmt.Fprintf(w, result)
 }
