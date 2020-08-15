@@ -14,5 +14,6 @@ func main() {
 func HelloServer(w http.ResponseWriter, r *http.Request) {
 	var url string = r.URL.Path[1:]
 	var result string = parallel_reading.Read(url)
+	w.Header().Add("Access-Control-Allow-Origin","*")
 	fmt.Fprintf(w, result)
 }

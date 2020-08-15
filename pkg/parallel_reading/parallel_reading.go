@@ -21,6 +21,7 @@ func Read(word string) string {
 				break
 			}
 		}
+		result = "{\"result\": \"" + result + "\"}"
 		return result
 }
 
